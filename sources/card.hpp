@@ -3,8 +3,8 @@
 #include "stdio.h"
 using namespace std;
 
-namespace areil{}
-using namespace areil;
+namespace ariel{}
+using namespace ariel;
 
     class Card
     {

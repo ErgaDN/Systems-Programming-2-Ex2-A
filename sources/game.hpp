@@ -1,13 +1,14 @@
 #pragma once
-#include <iostream>
+#include "iostream"
 #include <string>
 #include "stdio.h"
 #include "player.hpp"
 
-namespace areil
+namespace ariel
 {
 }
-using namespace areil;
+using namespace ariel;
+using namespace std;
 
 class Game
 {

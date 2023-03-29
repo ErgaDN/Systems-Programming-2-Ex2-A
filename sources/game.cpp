@@ -1,5 +1,7 @@
 #include "game.hpp"
-#include <string>
+#include "player.hpp"
+#include "iostream"
+#include "stdio.h"
 
 using namespace std;
 

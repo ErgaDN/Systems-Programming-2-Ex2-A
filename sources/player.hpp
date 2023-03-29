@@ -3,10 +3,10 @@
 #include <string>
 #include "stdio.h"
 
-namespace areil
+namespace ariel
 {
 }
-using namespace areil;
+using namespace ariel;
 using namespace std;
 
 class Player
