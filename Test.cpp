@@ -94,17 +94,13 @@ TEST_CASE("The game ends after at most 26 turns")
     Player p2("Bob");
     Game game(p1, p2);
     bool maxTurns = 26;
-    while (p1.stacksize() >= 0 && p2.stacksize() >= 0)
+    
+    for (int i = 0 ; i <= 26 ; i++ && p1.stacksize()>=0)
     {
         game.playTurn();
-        maxTurns = maxTurns-1;
     }
-    CHECK(maxTurns >= 0);
+    CHECK(maxTurns == 26);
+    CHECK(p1.stacksize() == 0);
+    CHECK(p2.stacksize() == 0);
 }
 
-// # The amount of cards before starting a game
-// # The amount of cards after starting a game
-// # The card scheme at the end of the game
-// # throwing errors from the functions
-// # Activating another turn after the game is over
-// - Printing the winner when the game ends in a draw
