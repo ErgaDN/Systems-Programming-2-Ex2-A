@@ -9,6 +9,5 @@ using namespace areil;
     class Card
     {
     public:
-        Card();
+        Card(){}
     };
-
